@@ -1,0 +1,36 @@
+
+1. Hello everyone! My name is Sujoy Seal. I am from CSE department and currently 
+enrolled in 4th year. so our project is ..
+
+Himanshu's intro : my name is Himanshu Shekhar and i'm also from computer science department.
+
+2. Contents : these are the contents, we'll go through.
+
+3. Problem : 285 million people in the world are visually impaired of whom 39 million are 
+blind. Without other person's help, they can rarely carry out day-to-day activity. In today's
+busy world of traffic and frauds, this has becomes problem for blinds.
+
+4. Introduction : a normal human being take his course of action post extracting necessary information from surrounding with the help of eyes. What if there are no eyes? Now, here the eyes are simply helping to get information. If we get the same information from elsewhere, he'll perform same set of actions. Therefore, we provide necessary information to the person having no eyes through ears and he can act accordingly.
+
+for example...
+
+5. Approach : This is the approach we are following for providing that necessary information. camera captures the surrounding image which are passed to the ML model which makes intelligent predictions of scenario of surrounding. The output will be in text format explaining the surrounding which is then converted to speech. The speech is let out as sound to the earpiece which is carried by the user.
+
+6. ML Model : We'll see more in The architecture of the network is quite simple, it is a series of convolutional layers followed by fully connected layers.
+The main idea is to have a grid of boxes to cover all the image being processed. The last layer contains all the boxes, coordinates and classes. This way we can cover the whole image with a pre-defined set of boxes.
+
+7. Code : This is a small code snippet from YOLO v3  which shows our implementation. We perform image cropping and pass on this image to a series of convolutional layers. The final output layer gives the desired output.
+
+8. Security : Security is very important aspect of our life. here we try to provide basic security to the user. if the user feels he is in danger, he clicks a physical button which creates a sms having current location of the user which is being tracked by gps system embedded into the device and a live-telecast link streaming from cloud which is being captured by cameras. And this sms will be sent to trusted contacts.
+
+9. In the output section we can see that the cars, traffic light and a person have been identified. The device provides the necessary instructions.
+
+10. Future implementation : 
+Since the device is portable, we need to implement this on raspberry pi.
+for getting more accurate results we need to train the model with more and varied datasets
+as CNN is faster than openCV, we are trying to implement this on CNN instead of openCV.
+
+11. These are the references.
+
+Thank you everyone.
+
